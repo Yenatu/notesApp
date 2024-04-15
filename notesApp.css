@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 22px;
+  }
+  
+  .form-container {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition effect */
+  }
+  
+  button#addNoteBtn {
+    background-color: #007bff; /* Blue color for add button */
+    color: #fff;
+  }
+  
+  button#addNoteBtn:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+  }
+  
+  button#editNoteBtn {
+    background-color: #28a745; /* Green color for edit button */
+    color: #fff;
+  }
+  
+  button#editNoteBtn:hover {
+    background-color: #218838; /* Darker green color on hover */
+  }
+  
+  button#deleteNoteBtn {
+    background-color: #dc3545; /* Red color for delete button */
+    color: #fff;
+  }
+  
+  button#deleteNoteBtn:hover {
+    background-color: #c82333; /* Darker red color on hover */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .note {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .note:hover {
+    background-color: #f0f0f0; /* Lighter background color on hover */
+  }
+  
